@@ -140,9 +140,8 @@ body {
 }
 .content_wrapper {
   width: 90vw;
-  /* height: 500px; */
   margin: 0 auto;
-  background-color: #fff7e6;
   z-index: 99;
   border-radius: 30px;
+  background-color: #fff7e6;
 }

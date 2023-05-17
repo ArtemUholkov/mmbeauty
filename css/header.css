@@ -102,13 +102,14 @@ header {
     position: absolute;
     right: 100%;
     width: 100%;
-    height: calc(100vh - 66px);
+    height: calc(100vh);
     z-index: 5;
     display: none;
     overflow: hidden;
     bottom: 0;
     justify-content: center;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.9);
+    padding-top: 102px;
   }
 
   .popup.open {
@@ -125,7 +126,7 @@ header {
     }
 
     to {
-      background-color: rgba(0, 0, 0, 0.7);
+      background-color: rgba(0, 0, 0, 0.9);
     }
   }
 
@@ -150,8 +151,8 @@ header {
     display: block;
     padding: 40px;
     text-decoration: none;
-    font-size: 15px;
-    color: #a9a9a9;
+    font-size: 19px;
+    color: #ffffff;
   }
 
   .nav_elem_mobile:hover {
