@@ -15,11 +15,50 @@
     <link rel="stylesheet" href="css/index.css" />
   </head>
   <body>
-    <header></header>
-    <section class="main_picture"></section>
-    <section class="services"></section>
-    <section class="gallery"></section>
-    <section class="contacts"></section>
+    <div class="content_wrapper">
+      <header>
+        <div class="container header_container">
+          <nav class="navbar">
+            <div class="logo_wrapper">
+              <a href="#"
+                ><img class="logo_name" src="img/header/logo-no-background.png" alt="Estate Logo"
+              /></a>
+            </div>
+            <ul class="navbar_menu">
+              <li><a class="nav_elem" href="#requirements">Послуги</a></li>
+              <li><a class="nav_elem" href="#newsroom">Галерея</a></li>
+              <li><a class="nav_elem" href="#our_team">Контакти</a></li>
+            </ul>
+            <div class="burger">
+              <div class="burger_space" id="burger">
+                <span class="stick"></span>
+                <span class="stick"></span>
+                <span class="stick"></span>
+              </div>
+            </div>
+          </nav>
+        </div>
+        <div class="popup" id="popup">
+          <div class="popup_textblock" id="popupSlide">
+            <ul class="navbar_menu_mobile">
+              <li><a class="nav_elem_mobile" href="#requirements">Послуги</a></li>
+              <li><a class="nav_elem_mobile" href="#newsroom">Галерея</a></li>
+              <li><a class="nav_elem_mobile" href="#our_team">Контакти</a></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+
+      <section class="main_picture">
+        <div class="main_picture_content_wrapper">
+          <h1>MM Beauty Studio</h1>
+          <h2>Студія краси</h2>
+        </div>
+      </section>
+      <section class="services"></section>
+      <section class="gallery"></section>
+      <section class="contacts"></section>
+    </div>
     <footer></footer>
     <script src="js/script.js"></script>
   </body>
