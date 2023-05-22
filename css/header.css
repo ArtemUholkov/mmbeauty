@@ -28,8 +28,9 @@ header {
 }
 
 .logo_wrapper {
-  width: 142px;
-  height: 90px;
+  max-width: 150px;
+  width: auto;
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -60,17 +61,31 @@ header {
 .nav_elem {
   text-decoration: none;
   font-size: 19px;
-  color: #444444;
+  color: #f68b00;
   padding: 21px 15px 24px;
+  transition: all 0.5s;
 }
 
 .nav_elem:hover {
   background-color: var(--button-background-color);
-  color: var(--background-color-white);
+  color: rgb(133, 133, 133);
   transition: 0.5s;
 }
-
-@media (max-width: 960px) {
+.main_button {
+  padding: 15px 20px;
+  border: none;
+  border-radius: 15px;
+  color: #ffffff;
+  font-size: 19px;
+  transition: all 0.5s;
+  background-color: #f6ce9b;
+}
+.main_button:hover {
+  background-color: #efdabf;
+  transition: all 0.5s;
+  color: #515151;
+}
+@media (max-width: 1060px) {
   .navbar_menu {
     display: none;
   }
@@ -108,7 +123,7 @@ header {
     overflow: hidden;
     bottom: 0;
     justify-content: center;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(252, 236, 197, 1);
     padding-top: 102px;
   }
 
@@ -126,7 +141,7 @@ header {
     }
 
     to {
-      background-color: rgba(0, 0, 0, 0.9);
+      background-color: rgba(252, 236, 197, 1);
     }
   }
 
@@ -152,7 +167,7 @@ header {
     padding: 40px;
     text-decoration: none;
     font-size: 19px;
-    color: #ffffff;
+    color: #181717;
   }
 
   .nav_elem_mobile:hover {
@@ -181,7 +196,7 @@ header {
 
   @keyframes fadeout {
     from {
-      background-color: rgba(0, 0, 0, 0.7);
+      background-color: rgba(252, 236, 197, 1);
     }
 
     to {
@@ -200,7 +215,7 @@ header {
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 650px) {
   .navbar {
     width: 100%;
   }
@@ -301,12 +316,24 @@ h1 {
   }
 }
 
-@media (max-height: 550px) {
-  .title_circle {
-    display: none;
+@media (max-width: 650px) {
+  .header_container {
+    width: 95%;
   }
-
-  .title_arrow {
-    display: none;
+}
+@media (max-width: 570px) {
+  .main_button {
+    padding: 10px 15px;
+    font-size: 15px;
+    border-radius: 10px;
+  }
+  .logo_wrapper {
+    width: 100px;
+  }
+  /* header {
+    height: 9px;
+  } */
+  .content_wrapper {
+    width: 95vw;
   }
 }
