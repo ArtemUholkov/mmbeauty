@@ -110,9 +110,6 @@ header {
     cursor: pointer;
   }
 
-  .logo_wrapper {
-  }
-
   .popup {
     position: absolute;
     right: 100%;
@@ -288,26 +285,41 @@ header {
 }
 
 h1 {
-  font-size: 32px;
+  font-size: 48px;
   font-weight: 400;
   text-align: center;
-  color: var(--dark-gray-text-color);
+  color: white;
 }
 
 .title_circle {
-  width: 64px;
-  height: 64px;
+  color: black;
+  background-color: rgb(250, 221, 182);
+  font-size: 26px;
+  padding: 20px 30px;
+  width: 250px;
   border: black 2px solid;
   position: absolute;
   bottom: 60px;
-  left: calc(50% - 32px);
+  left: 0;
+  right: 0;
+  margin: auto;
   z-index: 2;
-  border-radius: 50%;
+  border-radius: 20px;
   display: flex;
+  flex-direction: column;
+  gap: 10px;
   align-items: center;
   justify-content: center;
   animation: bounce 1600ms infinite cubic-bezier(0.445, 0.05, 0.55, 0.95);
   cursor: pointer;
+  text-decoration: none;
+  border: 0;
+  transition: all 0.5s;
+}
+.title_circle:hover {
+  background-color: rgb(247, 200, 142);
+  color: black;
+  transition: all 0.5s;
 }
 
 @keyframes bounce {
