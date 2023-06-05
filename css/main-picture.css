@@ -4,11 +4,12 @@
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
-  height: calc(97vh - 126px);
+  height: calc(94vh - 126px);
   border-radius: 30px;
   width: 90vw;
   margin: 0 auto;
   margin-top: 30px;
+  padding-bottom: 3vh;
 }
 .main_picture_content_wrapper {
   position: absolute;

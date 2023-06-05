@@ -1,0 +1,60 @@
+.show {
+  background: rgba(0, 0, 0, 0.5);
+}
+.fade {
+  /* transition: none; */
+}
+
+.modal_contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 30px;
+}
+.modal_contacts_wrapper {
+  padding-bottom: 20px;
+  background-color: #fefaef;
+  border-radius: 30px;
+}
+.modal_contact_title {
+  text-align: center;
+  font-size: 25px;
+  line-height: 35px;
+}
+.modal_links_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 35px;
+}
+.modal_links_link {
+  width: 20px;
+  height: 20px;
+  text-decoration: none;
+  color: rgb(149, 59, 59);
+  transition: all 0.5s;
+}
+.modal_links_link:hover {
+  color: rgb(245, 89, 89);
+  transition: all 0.5s;
+}
+.fa-solid {
+  font-size: 35px;
+}
+.fa-phone {
+  font-size: 35px;
+}
+.fa-brands {
+  font-size: 35px;
+}
+.fa-viber {
+  font-size: 35px;
+}
+.fa-telegram {
+  font-size: 35px;
+}
+.fa-instagram {
+  font-size: 35px;
+}
