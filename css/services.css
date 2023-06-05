@@ -8,6 +8,7 @@
   background-color: #fefaef;
   overflow: hidden;
   padding: 30px;
+  padding-bottom: 50px;
 }
 h3 {
   font-size: 35px;
@@ -45,6 +46,9 @@ h3 {
 .accordion-body {
   justify-content: center;
 }
+.second_item {
+  margin-top: 50px;
+}
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
   background-color: #000000;
@@ -62,9 +66,30 @@ h3 {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.carousel-inner {
+.services_item_info {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 25px;
+
+  padding: 15px;
+  border-radius: 30px;
 }
-.carousel-item .active {
+h3 {
+  color: rgb(149, 59, 59);
+}
+.services_item_info_text {
+  font-size: 30px;
+  text-align: center;
+  color: rgb(84, 84, 84);
+  font-weight: 700;
+}
+.carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-height: 500px;
 }
 @media (max-width: 1500px) {
   .carousel-item {
@@ -122,5 +147,30 @@ h3 {
   }
   .sizes_table {
     max-height: 300px;
+  }
+}
+@media (max-width: 1070px) {
+  .services_item_info_text {
+    font-size: 24px;
+  }
+}
+@media (max-width: 860px) {
+  .services_item_gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .services_item_info_text {
+    font-size: 30px;
+  }
+  .services_item_info {
+    background-color: rgb(250, 221, 182);
+    width: 90%;
+  }
+}
+@media (max-width: 630px) {
+  .services_item_info_text {
+    font-size: 18px;
   }
 }

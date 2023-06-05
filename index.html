@@ -36,9 +36,9 @@
               Записатись
             </button>
             <ul class="navbar_menu">
-              <li><a class="nav_elem" href="#requirements">Послуги</a></li>
-              <li><a class="nav_elem" href="#newsroom">Галерея</a></li>
-              <li><a class="nav_elem" href="#our_team">Контакти</a></li>
+              <li><a class="nav_elem" href="#services">Послуги</a></li>
+              <li><a class="nav_elem" href="#gallary">Галерея</a></li>
+              <li><a class="nav_elem" href="#contacts">Контакти</a></li>
             </ul>
             <div class="burger">
               <div class="burger_space" id="burger">
@@ -52,9 +52,9 @@
         <div class="popup" id="popup">
           <div class="popup_textblock" id="popupSlide">
             <ul class="navbar_menu_mobile">
-              <li><a class="nav_elem_mobile" href="#requirements">Послуги</a></li>
-              <li><a class="nav_elem_mobile" href="#newsroom">Галерея</a></li>
-              <li><a class="nav_elem_mobile" href="#our_team">Контакти</a></li>
+              <li><a class="nav_elem_mobile" href="#services">Послуги</a></li>
+              <li><a class="nav_elem_mobile" href="#gallary">Галерея</a></li>
+              <li><a class="nav_elem_mobile" href="#contacts">Контакти</a></li>
               <button
                 class="main_button main_picture_button popup_button"
                 data-bs-toggle="modal"
@@ -80,8 +80,9 @@
           >
             Записатись
           </button>
-
-          <button class="main_button main_picture_button">Галерея</button>
+          <a href="#gallary">
+            <button class="main_button main_picture_button">Галерея</button>
+          </a>
         </div>
         <a href="#services" class="title_circle">
           <p>Послуги</p>
@@ -156,11 +157,18 @@
             </button>
           </div>
 
-          <div class="services_item_info">121232222222222223</div>
+          <div class="services_item_info">
+            <p class="services_item_info_text">Стрижки: чоловічі, жіночі, дитячі</p>
+            <p class="services_item_info_text">Фарбування</p>
+            <p class="services_item_info_text">Кератинове вирівнювання</p>
+            <p class="services_item_info_text">Реконструкція волосся</p>
+            <p class="services_item_info_text">Плетіння, афрокоси, коси з канекалоном</p>
+            <p class="services_item_info_text">Укладки</p>
+          </div>
         </div>
       </div>
       <div class="services_item">
-        <h3>Послуги депіляції</h3>
+        <h3 class="second_item">Послуги депіляції</h3>
         <div class="services_item_gallery second_gal">
           <div id="carouselExampleControls2" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
@@ -211,12 +219,156 @@
             </button>
           </div>
 
-          <div class="services_item_info">121232222222222223</div>
+          <div class="services_item_info">
+            <p class="services_item_info_text">Депіляція плівковим та касетним воском</p>
+            <p class="services_item_info_text">Шугаринг</p>
+            <p class="services_item_info_text">Ламінування вій</p>
+          </div>
         </div>
       </div>
     </section>
-    <section class="gallery"></section>
-    <section class="contacts"></section>
+    <section class="gallery" id="gallary">
+      <h3>Галерея</h3>
+      <div
+        id="carouselExampleControls3"
+        class="carousel slide gallary_carousel"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner gallery_carousel-inner">
+          <div class="carousel-item gallary_carousel-item active">
+            <img src="img/gallery/125.jpg" class="sizes_img_in_car photo_item" alt="..." />
+          </div>
+          <div class="carousel-item gallary_carousel-item">
+            <img src="img/gallery/124.jpg" class="sizes_img_in_car photo_item" alt="..." />
+          </div>
+          <div class="carousel-item gallary_carousel-item">
+            <img src="img/gallery/123.jpg" class="sizes_img_in_car photo_item" alt="..." />
+          </div>
+          <div class="carousel-item gallary_carousel-item">
+            <img src="img/gallery/122.jpg" class="sizes_img_in_car photo_item" alt="..." />
+          </div>
+          <div class="carousel-item gallary_carousel-item">
+            <img src="img/gallery/121.jpg" class="sizes_img_in_car photo_item" alt="..." />
+          </div>
+          <div class="carousel-item gallary_carousel-item">
+            <img src="img/gallery/116.jpg" class="sizes_img_in_car photo_item" alt="..." />
+          </div>
+          <div class="carousel-item gallary_carousel-item">
+            <img src="img/gallery/117.jpg" class="sizes_img_in_car photo_item" alt="..." />
+          </div>
+          <div class="carousel-item gallary_carousel-item">
+            <img src="img/gallery/118.jpg" class="sizes_img_in_car photo_item" alt="..." />
+          </div>
+          <div class="carousel-item gallary_carousel-item">
+            <img src="img/gallery/119.jpg" class="sizes_img_in_car photo_item" alt="..." />
+          </div>
+          <div class="carousel-item gallary_carousel-item">
+            <img src="img/gallery/120.jpg" class="sizes_img_in_car photo_item" alt="..." />
+          </div>
+          <div class="carousel-item gallary_carousel-item">
+            <img src="img/gallery/111.jpg" class="sizes_img_in_car photo_item" alt="..." />
+          </div>
+          <div class="carousel-item gallary_carousel-item">
+            <img src="img/gallery/112.jpg" class="sizes_img_in_car photo_item" alt="..." />
+          </div>
+          <div class="carousel-item gallary_carousel-item">
+            <img src="img/gallery/113.jpg" class="sizes_img_in_car photo_item" alt="..." />
+          </div>
+          <div class="carousel-item gallary_carousel-item">
+            <img src="img/gallery/114.jpg" class="sizes_img_in_car photo_item" alt="..." />
+          </div>
+          <div class="carousel-item gallary_carousel-item">
+            <img src="img/gallery/115.jpg" class="sizes_img_in_car photo_item" alt="..." />
+          </div>
+          <div class="carousel-item gallary_carousel-item">
+            <img src="img/gallery/126.jpg" class="sizes_img_in_car photo_item" alt="..." />
+          </div>
+          <div class="carousel-item gallary_carousel-item">
+            <img src="img/gallery/127.jpg" class="sizes_img_in_car photo_item" alt="..." />
+          </div>
+        </div>
+
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleControls3"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleControls3"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <section class="contacts" id="contacts">
+      <h3>Контакти</h3>
+      <div class="contacts_content_wrapper">
+        <div class="map_wrapper">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d643.7721645475241!2d23.992316969686424!3d49.80320086378643!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473ae7a4caefb92f%3A0x6a4bdee1db200f88!2z0YDQuNC90L7QuiAi0J3QsNGD0LrQvtCy0LAiLCDQstGD0LvQuNGG0Y8g0J3QsNGD0LrQvtCy0LAsIDI50LAsINCb0YzQstGW0LIsINCb0YzQstGW0LLRgdGM0LrQsCDQvtCx0LvQsNGB0YLRjCwgNzkwMDA!5e0!3m2!1suk!2sua!4v1685962775747!5m2!1suk!2sua"
+            width="800"
+            height="600"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+        <div class="contacts_info_wrapper">
+          <p class="adress">вул. Наукова 29а, 2 поверх<br />(вхід через ринок)</p>
+          <div class="modal_contacts_wrapper">
+            <div class="modal_contact">
+              <p class="modal_contact_title">
+                Перукарські послуги<br />Марія<br />
+                +380983554502
+              </p>
+              <div class="modal_links_wrapper">
+                <a href="tel:0983554502" class="modal_links_link">
+                  <i class="fa-solid fa-phone"></i>
+                </a>
+                <a href="viber://chat/?number=%2B380983554502" class="modal_links_link">
+                  <i class="fa-brands fa-viber"></i>
+                </a>
+                <a href="https://t.me/new_braid_lviv" class="modal_links_link">
+                  <i class="fa-brands fa-telegram"></i>
+                </a>
+                <a href="https://www.instagram.com/new_braid_lviv/" class="modal_links_link">
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+              </div>
+            </div>
+            <div class="modal_contact">
+              <p class="modal_contact_title">
+                Послуги депіляції<br />Мар'яна<br />
+                +380679474189
+              </p>
+              <div class="modal_links_wrapper">
+                <a href="tel:0679474189" class="modal_links_link">
+                  <i class="fa-solid fa-phone"></i>
+                </a>
+                <a href="viber://chat/?number=%2B380679474189" class="modal_links_link">
+                  <i class="fa-brands fa-viber"></i>
+                </a>
+                <a href="https://t.me/Marianka_Lviv" class="modal_links_link">
+                  <i class="fa-brands fa-telegram"></i>
+                </a>
+                <a href="https://www.instagram.com/m._grytsiv/" class="modal_links_link">
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <div class="modal_window">
       <!-- Modal -->
       <div
