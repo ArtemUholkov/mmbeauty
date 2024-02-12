@@ -108,6 +108,7 @@ header {
   .burger_space {
     padding: 0 20px;
     cursor: pointer;
+    z-index: 100;
   }
 
   .popup {
