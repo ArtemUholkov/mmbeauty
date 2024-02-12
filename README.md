@@ -1,4 +1,4 @@
-# 50-crowns (real order)
+# Beauty Studio (real order)
 
 [Here you can check it](http://beauty-studio.online/)
 
